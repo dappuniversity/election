@@ -2,8 +2,9 @@
 # Election - DAPP Tutorial
 Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
 
-**Full Free Video Tutorial**
-[link]
+**Full Free Video Tutorial:**
+https://youtu.be/3681ZYbDSSk
+
 
 Follow the steps below to download, install, and run this project.
 
