@@ -1,22 +1,3 @@
-/Users/williamdoody/dev/election/contracts/Election.sol:1:1: SyntaxError: Source file requires different compiler version (current compiler is 0.4.24+commit.e67f0147.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version
-pragma solidity 0.4.20;
-^---------------------^
-,/Users/williamdoody/dev/election/contracts/Election.sol:24:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
-    function Election () public {
-    ^ (Relevant source part starts here and spans across multiple lines).
-,/Users/williamdoody/dev/election/contracts/Migrations.sol:11:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
-  function Migrations() {
-  ^ (Relevant source part starts here and spans across multiple lines).
-,/Users/williamdoody/dev/election/contracts/Election.sol:48:9: Warning: Invoking events without "emit" prefix is deprecated.
-        votedEvent(_candidateId);
-        ^----------------------^
-Compilation failed. See above.
-Williams-MBP:election williamdoody$ 
-
-
-
-
-
 # Election - DAPP Tutorial
 Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
 
