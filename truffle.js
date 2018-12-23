@@ -1,4 +1,10 @@
 module.exports = {
+  compilers: {
+      solc: {
+      version: "0.4.20"
+    }
+  },
+
   // See <http://truffleframework.com/docs/advanced/configuration>
   // for more about customizing your Truffle configuration!
   networks: {
