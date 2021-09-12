@@ -42,5 +42,5 @@ See free video tutorial for full explanation of these steps:
 `$ npm run dev`
 Visit this URL in your browser: http://localhost:3000
 
-If you get stuck, please reference the free video tutorial.
+If you get stuck, please refer the free video tutorial.
 
