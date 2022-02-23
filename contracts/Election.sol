@@ -1,4 +1,4 @@
-pragma solidity 0.4.20;
+pragma solidity ^0.4.11;
 
 contract Election {
     // Model a Candidate
@@ -22,8 +22,8 @@ contract Election {
     );
 
     function Election () public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("Sven Gabel");
+        addCandidate("Ghassen Ouertani");
     }
 
     function addCandidate (string _name) private {
