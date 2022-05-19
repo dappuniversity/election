@@ -61,12 +61,20 @@ App = {
     content.hide();
 
     // Load account data
-    web3.eth.getCoinbase(function(err, account) {
-      if (err === null) {
-        App.account = account;
-        $("#accountAddress").html("Your Account: " + account);
-      }
-    });
+    if(ethereum){
+        ethereum.enable().then(function(acc){
+            App.account = acc[0];
+            $("#accountAddress").html("Your Account: " + App.account);
+        });
+    }
+    else {
+       web3.eth.getCoinbase(function(err, account) {
+        if (err === null) {
+          App.account = account;
+          $("#accountAddress").html("Your Account: " + account);
+        }
+      });
+    }
 
     // Load contract data
     App.contracts.Election.deployed().then(function(instance) {
